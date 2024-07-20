@@ -8,3 +8,5 @@ remoteFile = urlopen(Request(url)).read()
 memoryFile = BytesIO(remoteFile)
 
 reader = PdfReader(memoryFile)
+
+keys = {"MANufACTuRERS NAME": "Manufacturer"}
